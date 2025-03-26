@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аутентификация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class = body>
+    <h1>Аутентификация</h1>
+    <h2>Регистрация</h2>
+    <div>
+        <form id="registerForm">
+            <div class = ayt><input type="text" id="registerUsername" placeholder="Имя пользователя" required></div>
+            <div class = ayt><input type="password" id="registerPassword" placeholder="Пароль" required></div>
+            <div class = ayt><button type="submit">Зарегестрироваться</button></div>
+        </form>
+    </div>
+    <h2>Вход</h2>
+    <div>
+        <form id="loginForm">
+            <div class = ayt><input type="text" id="loginUsername" placeholder="Имя пользователя" required></div>
+            <div class = ayt><input type="password" id="loginPassword" placeholder="Пароль" required></div>
+            <div class = ayt><button type="submit">Войти</button></div>
+        </form>
+    </div>
+
+    <div>
+        <h2>Защищенные данные</h2>
+        <div class = ayt><button id="protectedButton">Получить защищенные данные</button></div>
+        <div class = ayt><div id="protectedData"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
