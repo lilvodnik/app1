@@ -25,10 +25,10 @@ cd ../frontend && npm install
 ## Запустите:
 
 bash
-# Сервер (порт 5000)
+### Сервер (порт 5000)
 cd backend && npm start
 
-# Сайт (порт 3000)
+### Сайт (порт 3000)
 cd ../frontend && npm start
 ## Что внутри
 ## Сервер (Node.js):
